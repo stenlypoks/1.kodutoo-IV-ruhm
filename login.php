@@ -17,7 +17,7 @@ if (isset ($_POST["signupEmail"])) {
     if (empty ($_POST[signupEmail])) {
 
     //on tyhi
-      $signupEmailError "V2li on kohustuslik!";
+      $signupEmailError = "V2li on kohustuslik!";
     }
   }
 
